@@ -201,6 +201,51 @@ text-decoration: none;
   font-size: 10px;
   margin: 4px;
  }
+	  @media (max-width: 768px) {
+  /* Tablet + small screens */
+  .header-container,
+  .login-form form,
+  .content-container {
+    flex-direction: column;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+  }
+
+  .login-item input,
+  .mobile-no input,
+  .new-pass input,
+  button {
+    width: 100%;
+  }
+
+  .forget {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile screens */
+  .logo img {
+    width: 200px;
+  }
+
+  .select-dob {
+    flex-direction: column;
+  }
+
+  .gender {
+    flex-direction: column;
+  }
+
+  .right-heading h1 {
+    font-size: 20px;
+  }
+}
+
   </style>
   <body>
     <!-- HEADER SECTION  -->
